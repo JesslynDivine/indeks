@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+.header{
+    background-color:azure;
+    padding: 20px;
+    text-align: center;
+}
+.header-img {
+    width: 2000px;       /* Lebih lebar lagi (dari 1600px ke 1800px) */
+    height: 250px;       /* Ditinggiin sedikit lagi (dari 180px ke 220px) */
+    max-width: 100%;     /* Tetap aman biar gak berantakan di layar */
+    object-fit: cover;   /* Biar gambarnya proporsional & gak peyot */
+    border-radius: 8px;
+}
+/* style pada topnav*/
+.topnav{
+    overflow: hidden;
+    background-color: pink;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+    text-align: none;
+}
+.topnav a:hover{
+    background-color: azure;
+    color: brown;
+}
+.footer{
+    background-color:lightblue;
+    padding: 10px;
+    text-align: center;
+}
+/* style pada table */
+table, th, td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    width: 70%;
+}
+th,td{
+    padding: 8px;
+}
+tr{
+    background-color:lightblue;
+}
+tr:nth-child(even){
+    background-color: hotpink;
+}
+tr:hover{
+    background-color: honeydew;
+}
+ul{
+    list-style-type: circle;
+}
+ol{
+    list-style-type: lower-alpha;
+}

@@ -1,0 +1,56 @@
+ body{background-image: url(Sakura\ blossoms!!\ \(Ipad\ x\ Computer\ Wallpaper\ etc_\).jpg)}
+
+img.custom{width: 250px;
+height: 350px;}
+
+img.round{height: 350px;
+width: 250px;
+border-radius: 20%;}
+
+div.pol{
+    height: 270px;
+    width: 170px;
+    background-color: rgb(254, 254, 254);
+    border-radius: 20%;
+    text-align: center;
+}
+
+div.pol img{
+    height: 300x;
+    width: 200x;
+    border-radius: 15%;
+    border: 5px solid aliceblue
+}
+
+div.hover{
+    height: 400px;
+    width: 300px;
+    background-color: antiquewhite;
+    border-radius: 20%;
+    border: 5 px solid white;
+}
+
+div.hover img{
+    height: 250px;
+    width: 200px;
+    border-radius: 20%;
+    border: 2px solid white;
+}
+div.hover:hover{
+    height: 450px;
+    width: 350px;
+    background-color: bisque ;
+    box-shadow: 15px 15px 10px black;
+
+}
+
+p.External{
+    font-family: "bBuburDiaduk";
+    font-size: 30pt;
+}
+
+@font-face {
+    font-family: bBuburDiaduk;
+    src: url("b_bubur_diaduk/bBuburDiaduk.ttf");
+    color: aqua;
+}

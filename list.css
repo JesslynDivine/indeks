@@ -1,0 +1,128 @@
+/* Styling Dasar Halaman List */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('white.jpg'); /* Background gambar tema coquette */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #4a3b32;
+}
+
+/* Kotak Header Atas & Banner Gambar */
+.header {
+    background-color: azure;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-img {
+    width: 1800px;
+    height: 220px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Menu Navigasi (Topnav) - Rata Kiri & Warna Pink Pastel */
+.topnav {
+    background-color: #fbcfe8; /* Pink pastel manis */
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start; /* Membuat menu berada di sebelah kiri */
+    padding-left: 20px;
+    box-shadow: 0 2px 5px rgba(225, 29, 72, 0.1);
+}
+
+.topnav a {
+    display: block;
+    color: #9d174d; /* Teks merah mawar lembut */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.topnav a:hover {
+    background-color: azure;
+    color: #9d174d;
+}
+
+/* Judul dan Teks Paragraf */
+h2 {
+    margin-left: 20px;
+    margin-top: 35px;
+    color: #8c5844;
+    font-size: 22px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #db2777; /* Pink manis */
+    margin: 20px 20px 5px 20px;
+}
+
+/* --- 1. KOTAK MAKANAN (Ungu Lavender Pastel) --- */
+ol.daftar-buah {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    background-color: rgba(243, 232, 255, 0.9); /* Ungu lavender lembut */
+    padding: 12px;
+    margin: 5px 20px 20px 20px;
+    border: 3px dashed #c084fc;
+    border-radius: 12px;
+}
+
+ol.daftar-buah li {
+    background-color: #fbcfe8; /* Pink pastel */
+    color: #4b5563;
+    padding: 8px 12px;
+    margin: 6px 0;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid #f472b6;
+}
+
+/* --- 2. KOTAK MINUMAN (Mint Pastel) --- */
+ul.lorem-list {
+    list-style-type: square;
+    list-style-position: inside;
+    background-color: rgba(204, 251, 241, 0.9); /* Mint pastel lembut */
+    padding: 12px;
+    margin: 5px 20px 20px 20px;
+    border-radius: 12px;
+    border: 3px dashed #5eead4;
+}
+
+ul.lorem-list li {
+    background-color: #ffffff;
+    color: #4b5563;
+    padding: 8px 12px;
+    margin: 6px 0;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+/* --- 3. KOTAK ICON (Peach Pastel) --- */
+ul.icon-list {
+    list-style-type: square;
+    list-style-position: inside;
+    background-color: rgba(255, 237, 213, 0.9); /* Peach pastel lembut */
+    padding: 12px;
+    margin: 5px 20px 30px 20px;
+    border-radius: 12px;
+    border: 3px dashed #fdba74;
+}
+
+ul.icon-list li {
+    background-color: #fef08a;
+    color: #4b5563;
+    padding: 8px 12px;
+    margin: 6px 0;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid #fde047;
+}
